@@ -30,10 +30,13 @@ def get_tossups_and_bonuses(filename: str) -> tuple:
                 line = packet.readline().strip()
         
         # Get Bonuses
+        on_last_bonus = False
         line = packet.readline().strip()
-        while line:
-            while line == "":
+        while not on_last_bonus or line != '':
+            while not on_last_bonus and line == "":
                 line = packet.readline().strip()
+                if line[:2] == "20":
+                    on_last_bonus = True
             bonuses += line + '\n'
             line = packet.readline().strip()
 
@@ -61,7 +64,8 @@ def insert_newlines(filename: str):
                         new_line = ""
                     else:
                         new_line += " "
-                new_file_text += new_line + '\n'
+                if len(new_line) > 0:
+                    new_file_text += new_line + '\n'
             line = packet.readline()
     with open(filename, 'w') as revised:
         revised.write(new_file_text)
