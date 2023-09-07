@@ -3,3 +3,5 @@ tmp/*
 .vscode/*
 */__pycache__/*
 */*/__pycache__/*
+input/*.txt
+output/*.pptx
