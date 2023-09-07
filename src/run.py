@@ -5,7 +5,7 @@ import sys, getopt
 def main(argv):
     input_file = ""
     output_file = ""
-    opts, args = getopt.getopt(argv,"i:o:")
+    opts, args = getopt.getopt(argv,"i:o:e")
     for opt, arg in opts:
         if opt == "-i":
             input_file = arg
@@ -13,6 +13,8 @@ def main(argv):
                 input_file = "../input/" + input_file
         elif opt == "-o":
             output_file = arg
+        elif opt == "-e":
+            insert_newlines(input_file)
     if input_file == "":
         print("Please specify an input file")
         return

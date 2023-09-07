@@ -10,13 +10,27 @@ PACKET_TEMPLATE = "../templates/packet_template.pptx"
 TOSSUP_SLIDE_HEADER = "Tossup #"
 BONUS_SLIDE_HEADER = "Bonus #"
 
+def get_tossup_fragments(tossup: str) -> list:
+    no_add_list = [")", "?", "”", " "]
+    period_split = tossup.split(".")
+    fragments = list()
+    for frag in period_split:
+        frag += "."
+        comma_split = frag.split(",")
+        for i in range(len(comma_split)-1):
+            fragments.append(comma_split[i] + ",")
+        fragments.append(comma_split[-1])
+    if fragments[-1][-2] in no_add_list:
+        fragments[-1] = fragments[-1][:-1]
+    return fragments
+
 def add_tossup_slides(pres, header: str, tossup: dict):
     """
     Adds the expanded slides for a tossup to the presentation
     """
     current_slide = add_new_question(pres, header)
-    power_frags = tossup["power"].split(".")
-    non_power_frags = tossup["non-power"].split(".")
+    power_frags = get_tossup_fragments(tossup["power"])
+    non_power_frags = get_tossup_fragments(tossup["non-power"])
     for fragment in power_frags:
         current_slide = add_question_fragment(current_slide, pres, str(fragment))
     # The non-power and power fragments are split up partially for ease of logic, partly so the power clues can be bolded
@@ -31,7 +45,7 @@ def add_bonus_slides(pres, header: str, bonus: dict):
     bonus_key_order = ["lead-in", "question-1", "answer-1", "question-2", "answer-2", "question-3", "answer-3"]
     current_slide = add_new_question(pres, header)
     for key in bonus_key_order:
-        current_slide = add_question_fragment(current_slide, pres, bonus[key])
+        current_slide = add_question_fragment(current_slide, pres, bonus[key] + '\n')
 
 def generate(tossups: list, bonuses: list, output_name):
     """

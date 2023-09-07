@@ -3,8 +3,6 @@ Provides a set of functions that directly interact with the PowerPoint presentat
 
 Authors: Will Hoover, Cade Reinberger
 """
-import copy
-from pptx.util import Inches
 
 def duplicate_question_slide(slide, pres):
     """
@@ -47,4 +45,5 @@ def add_tossup_answer(prev_slide, pres, answer: str):
     Creates and adds a new slide with the given answer to the finished tossup inserted at the bottom.
     Returns the slide that was created.
     """
-    return add_question_fragment(prev_slide, pres, answer)
+    answer_allocation = '\n\n' + answer
+    return add_question_fragment(prev_slide, pres, answer_allocation)

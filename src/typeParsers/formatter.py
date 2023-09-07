@@ -22,7 +22,6 @@ def remove_bad_stuff(line: str) -> str:
     Removes the following from tossup or bonus lines
     - moderator notes
     - numbering
-    - "ANSWER:"
     - pronunciation guides
     - author notes
     """
@@ -35,22 +34,20 @@ def remove_bad_stuff(line: str) -> str:
         pass
     if is_start_of_question(line):
         line = line[3:].strip()
-        return line + '\n'
-    if line[:3] == "[10":
-        return line[line.find("]")+2:] + '\n'
+        return line + ' '
     if '(“' in line:
         start = line.find('(“')
         if '”)' in line:
             end = line.find('”)') + 2
-            return line[:start-1] + line[end:] + '\n'
+            return line[:start-1] + line[end:] + ' '
         else:
-            return line[:start] + '\n'
+            return line[:start] + ' '
     elif '”)' in line:
             end = line.find('”)') + 2
-            return line[end:] + '\n'
+            return line[end:] + ' '
     if line[0] == "<" and line[-1] == ">":
         return ""
-    return line + '\n'
+    return line + ' '
 
 def format_tossups(tossups: str) -> list:
     """
