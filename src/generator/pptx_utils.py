@@ -12,14 +12,11 @@ def duplicate_question_slide(slide, pres):
     Written by Cade Reinberger
     """
     template = slide
-    blank_slide_layout = pres.slide_layouts[5]
+    blank_slide_layout = pres.slide_layouts[1]
 
     copied_slide = pres.slides.add_slide(blank_slide_layout)
     copied_slide.shapes.title.text = template.shapes.title.text
-    for i in range (1, len(template.shapes)):
-        el = template.shapes[i].element
-        newel = copy.deepcopy(copy.deepcopy(el))
-        copied_slide.shapes._spTree.insert_element_before(newel, 'p:extLst')
+    copied_slide.shapes[1].text_frame.paragraphs[0].text = template.shapes[1].text_frame.paragraphs[0].text
         
     copied_slide.name = f'{slide}'
 
@@ -31,9 +28,9 @@ def add_new_question(pres, header: str):
     create further slides for this question.
     Returns the slide that was created.
     """
-    new_slide = pres.slides.add_slide(pres.slide_master.slide_layouts[5])
+    new_slide = pres.slides.add_slide(pres.slide_master.slide_layouts[1])
     new_slide.shapes.title.text = header
-    new_slide.shapes.add_textbox(Inches(0.75), Inches(2), Inches(12), Inches(7))
+    new_slide.shapes[1].text_frame.paragraphs[0].text = ""
     return new_slide
 
 def add_question_fragment(prev_slide, pres, fragment: str):
@@ -42,7 +39,7 @@ def add_question_fragment(prev_slide, pres, fragment: str):
     Returns the slide that was created.
     """
     new_slide = duplicate_question_slide(prev_slide, pres)
-    new_slide.shapes[1].text += fragment
+    new_slide.shapes[1].text_frame.paragraphs[0].text += fragment
     return new_slide
 
 def add_tossup_answer(prev_slide, pres, answer: str):

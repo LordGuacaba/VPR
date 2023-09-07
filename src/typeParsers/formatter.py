@@ -37,12 +37,7 @@ def remove_bad_stuff(line: str) -> str:
         line = line[3:].strip()
         return line + '\n'
     if line[:3] == "[10":
-        return line[line.find("]"):] + '\n'
-    try:
-        if(line[0:7].lower() == "answer:"):
-            return line[7:].strip() + '\n'
-    except:
-        pass
+        return line[line.find("]")+2:] + '\n'
     if '(“' in line:
         start = line.find('(“')
         if '”)' in line:
