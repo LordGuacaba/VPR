@@ -1,5 +1,5 @@
 # VPR
-**V**isual **P**acket **R**eader is a Quiz Bowl packet parser that expands normal Quiz Bowl packets into PowerPoint presentations animated line by line, intended for deaf or hard of hearing players.
+**V**isual **P**acket **R**eader is a Quiz Bowl packet parser that expands normal Quiz Bowl packets into PowerPoint presentations animated line by line, intended for deaf or hard of hearing players. The program will expand a standard quizbowl packet into a series of powerpoint slides. Tossup slides may be clicked through, adding on a phrase or sentence at a time as it is read out loud. Bonus slides display one bonus portion at a time. Answers to each are always displayed on the slide after their corresponding questions are complete.
 
 ## Contents
 - [How To Use](#how-to-use)
