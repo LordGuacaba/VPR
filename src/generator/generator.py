@@ -47,7 +47,7 @@ def add_bonus_slides(pres, header: str, bonus: dict):
     for key in bonus_key_order:
         current_slide = add_question_fragment(current_slide, pres, bonus[key] + '\n')
 
-def generate(tossups: list, bonuses: list, output_name):
+def generate(tossups: list, bonuses: list, output_name: str):
     """
     Generates an expanded powerpoint for a packet with the given tossups and bonuses
     """
