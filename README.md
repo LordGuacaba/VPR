@@ -26,11 +26,12 @@ Arguments:
 - `-e` (optional) denotes that a .txt file contains many tossups entirely on one line. The file will be expanded into ~100-character lines before it is processed.
 
 ## What's New
-This is the first usable version of VPR! Stay tuned for more updates.
+v0.1.1
+- Output PowerPoint no longer opens in slide master mode
+- Text spacing improved
 ## Planned Updates
-- Fix issue where output powerpoints automatically open in slide master mode
-- Alter spacing on bonus slides
 - Add bold text for power clues
 - Support for word document input
 - Cross-OS compatability checks
 - Correct answer underlining?
+- Local GUI (eventually)
