@@ -26,12 +26,20 @@ Arguments:
 - `-e` (optional) denotes that a .txt file contains many tossups entirely on one line. The file will be expanded into ~100-character lines before it is processed.
 
 ## What's New
+v0.2.0
+- Power clues now show up in bold
 v0.1.1
 - Output PowerPoint no longer opens in slide master mode
 - Text spacing improved
 ## Planned Updates
-- Add bold text for power clues
+Features
 - Support for word document input
-- Cross-OS compatability checks
 - Correct answer underlining?
 - Local GUI (eventually)
+Fixes
+- Tighten pronunciation guide removal
+- Code refactoring
+- Cross-OS compatability checks
+- Remove extra slide between end of tossup and answer
+- Remove space between power mark and end of power
+- Better error output during packet parsing

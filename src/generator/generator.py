@@ -28,14 +28,14 @@ def add_tossup_slides(pres, header: str, tossup: dict):
     """
     Adds the expanded slides for a tossup to the presentation
     """
-    current_slide = add_new_question(pres, header)
+    current_slide = add_new_tossup_question(pres, header)
     power_frags = get_tossup_fragments(tossup["power"])
     non_power_frags = get_tossup_fragments(tossup["non-power"])
     for fragment in power_frags:
-        current_slide = add_question_fragment(current_slide, pres, str(fragment))
+        current_slide = add_tossup_fragment(current_slide, pres, str(fragment), True)
     # The non-power and power fragments are split up partially for ease of logic, partly so the power clues can be bolded
     for fragment in non_power_frags:
-        current_slide = add_question_fragment(current_slide, pres, str(fragment))
+        current_slide = add_tossup_fragment(current_slide, pres, str(fragment))
     add_tossup_answer(current_slide, pres, tossup["answer"])
 
 def add_bonus_slides(pres, header: str, bonus: dict):
@@ -43,9 +43,9 @@ def add_bonus_slides(pres, header: str, bonus: dict):
     Adds the expanded slides for a bonus to the presentation
     """
     bonus_key_order = ["lead-in", "question-1", "answer-1", "question-2", "answer-2", "question-3", "answer-3"]
-    current_slide = add_new_question(pres, header)
+    current_slide = add_new_bonus_question(pres, header)
     for key in bonus_key_order:
-        current_slide = add_question_fragment(current_slide, pres, bonus[key] + '\n')
+        current_slide = add_bonus_fragment(current_slide, pres, bonus[key] + '\n')
 
 def generate(tossups: list, bonuses: list, output_name: str):
     """
