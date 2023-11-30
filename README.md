@@ -28,6 +28,7 @@ Arguments:
 ## What's New
 v0.2.0
 - Power clues now show up in bold
+  
 v0.1.1
 - Output PowerPoint no longer opens in slide master mode
 - Text spacing improved
