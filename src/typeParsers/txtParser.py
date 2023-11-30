@@ -19,7 +19,7 @@ def get_tossups_and_bonuses(filename: str) -> tuple:
             line = packet.readline().strip()
             while line == "":
                 line = packet.readline().strip()
-            if line[0] == '1':
+            if line[0] == "1":
                 tossups += line + '\n'
                 tossups_started = True
         line = packet.readline().strip()

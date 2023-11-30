@@ -1,7 +1,7 @@
 """
 Provides a set of functions that directly interact with the PowerPoint presentation being generated.
 
-Authors: Will Hoover, Cade Reinberger
+Author: Will Hoover
 """
 
 # Tossup Utils
@@ -9,7 +9,6 @@ Authors: Will Hoover, Cade Reinberger
 def duplicate_tossup_slide(slide, pres):
     """
     Adds and returns a duplicate of the last slide in the given presentation.
-    Written by Cade Reinberger
     """
     template = slide
     blank_slide_layout = pres.slide_layouts[1]

@@ -1,6 +1,18 @@
 from typeParsers.txtParser import *
+from typeParsers.docxParser import get_tossups_and_bonuses as get_from_docx
 from generator.generator import generate
+from docx import Document
 import sys, getopt
+
+def get_questions_by_file_type(filepath: str) -> tuple:
+    """
+    Returns a (tossups, bonuses) tuple of question sets based on the packet's file type.
+    """
+    extension = filepath.split(".")[-1]
+    if extension == "txt":
+        return get_tossups_and_bonuses(filepath)
+    elif extension == "docx":
+        return get_from_docx(filepath)
 
 def main(argv):
     input_file = ""
@@ -20,8 +32,13 @@ def main(argv):
         return
     elif output_file == "":
         output_file = "expanded.pptx"
-    
-    tossups, bonuses = get_tossups_and_bonuses(input_file)
+   
+    try:
+        tossups, bonuses = get_questions_by_file_type(input_file)
+    except(TypeError):
+        print("Unsupported file type")
+        return
+
     generate(tossups, bonuses, output_file)
     print("ALL DONE COWABUNGA")
 

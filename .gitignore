@@ -4,4 +4,5 @@ tmp/*
 */__pycache__/*
 */*/__pycache__/*
 input/*.txt
+input/*.docx
 output/*.pptx
