@@ -21,11 +21,14 @@ To run VPR, use the following command:
 `python3 run.py -i <input_file> -o <output_file> -e`
 <br>
 Arguments:
-- `-i` input file name. Can be either a full or relative path to the file or a file name in the form <name>.txt that is in the `/input` directory
+- `-i` input file name. Can be either a full or relative path to the file or a file name in the form <name>.txt or <name>.docx that is in the `/input` directory
 - `-o` (optional) output file name. The output file generated in the `/output` directory will have this name. The .pptx extension is not needed. Will default to "expanded.pptx" if not provided
-- `-e` (optional) denotes that a .txt file contains many tossups entirely on one line. The file will be expanded into ~100-character lines before it is processed.
+- `-e` (optional) denotes that a file contains many tossups entirely on one line. The file will be expanded into ~100-character lines before it is processed.
 
 ## What's New
+v0.3.0
+- Input files can be word documents as well as .txt files
+
 v0.2.0
 - Power clues now show up in bold
   
@@ -34,8 +37,7 @@ v0.1.1
 - Text spacing improved
 ## Planned Updates
 Features
-- Support for word document input
-- Correct answer underlining?
+- Precise bold/underline on answer lines (word doc input only)
 - Local GUI (eventually)
 Fixes
 - Tighten pronunciation guide removal
