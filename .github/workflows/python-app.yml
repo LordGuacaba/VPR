@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  Build-Python-Tests:
 
     runs-on: ubuntu-latest
 
