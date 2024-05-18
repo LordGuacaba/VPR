@@ -1,0 +1,495 @@
+C++ Packet 1
+Edited by Dennis Beeby, Geoffrey Chen, William Groger, Amogh Kulkarni, Allan Lee, Benjamin McAvoy-Bickford,
+Dan Ni, Raymond Wang, Geoffrey Wu, and Nathan Zhang 
+Written by Justin Heiztman, Andrew Heller, Caroline Mao, Owen Mimno, Richard Niu, Gareth Thorlakson, Jonathan
+Tran, Allen Wang, Forrest Weintraub, Rosa Xia, Leland Xu, Andrew Zeng, and the editors 
+
+Tossups:
+
+1. One framework for this language contains the variable _SECRET_INTERNALS_DO_NOT_USE_OR _YOU_WILL_BE_FIRED.
+Variable declarations are moved to the top of the file in this language in the process of hoisting. It’s
+not C# (“C-sharp”), but in this language, two question marks can check if a variable is undefined using
+the nullish coalescing operator. The V8 engine powers this language’s most common runtime. Dynamic imports
+were added to this language’s (*) ECMA2020 standard. To check for equality in this language without doing
+an implicit type conversion, one would use 3 instead of 2 equal signs. In this language, one can call
+the getElementById function to get elements from the DOM. This language’s namesake object notation is
+known as JSON. For 10 points, name this language that is used alongside HTML and CSS in web development.
+ANSWER: JavaScript [or JS; prompt on ECMAscript; do not accept or prompt on “Java”] <GW, Other Science>
+
+2. The Challenge division of a 2021 Grand Prix for these products was won by CIGA’s Blue Planet design.
+One of these products with a diving helmet-inspired design is named after the British Navy’s Royal Oak
+series of ships. A Japanese company that makes these products pitted its Daini division against its Suwa
+division, which makes the “Astron.” These devices may include additional “complications,” have (*) tourbillons
+(“TOOR-bee-yawns”) in their escapements, and be powered by mainsprings. Types of these devices include
+the “pilot” and “chronograph.” In the 1970s, Seiko’s production of these devices fueled a “quartz crisis”
+that affected European manufacturers like TAG Heuer. For 10 points, name these devices traditionally linked
+to Switzerland, due to brands like Patek Philippe and Rolex. 
+ANSWER: wristwatches [prompt on timepieces, chronometers, or chronographs; do not accept or prompt on
+“clocks”] <DN, Other Academic> 
+
+3. Arguments in Moore v. Harper erroneously claimed that a politician from this city, who pushed for codifying
+habeas corpus in the Constitution, created independent state legislature theory. A resident of this city
+named Samuel Wragg was held hostage in exchange for a chest of medicine. The oldest continuously operating
+synagogue in the U.S. is this city’s K. K. Beth Elohim. Admiral Peter Parker led a naval assault on this
+city’s Sullivan’s Island, where around forty percent of all (*) imported slaves landed in the colonies.
+In 1718, Blackbeard blockaded the port of this city, which was home to the influential Pinckney family.
+Benjamin Lincoln surrendered this city to Henry Clinton after a 1780 siege during the Revolutionary War.
+For 10 points, what state capital during the colonial era later became the site of the Battle of Fort
+Sumter? 
+ANSWER: Charleston, South Carolina [or Charles Town] <JT, American History>
+
+4. This statement is responsible for a term in the semi-empirical mass formula proportional to N minus
+Z quantity squared divided by the quantity N plus Z. A “force of attraction” not caused by any of the
+four fundamental forces results when this statement does not apply to identical particles. This statement
+is used to derive the momentum space density of particles in a Fermi gas. The particles to which this
+statement applies are determined by the (*) spin-statistics theorem. This statement results from the fact
+that fermion wavefunctions are antisymmetric under exchange.  This statement causes the number of electrons
+in a full energy level to be 2n squared. For 10 points, name this statement that says no two fermions
+can occupy the same quantum state. 
+ANSWER: Pauli exclusion principle <FW, Physics>
+
+5. The prolific poet John Bradburne was made a candidate for canonization on behalf of his work among
+people with this trait in Mutoko, Zimbabwe. Marianne Cope and Jozef de Veuster were both sainted for their
+work assisting people with this trait at Kalaupapa. A Samaritan is the only one of ten people formerly
+with this trait who returns to thank Jesus in the Gospel of Luke. Father Damien, the patron saint of people
+with this trait, gained this trait while working in (*) Molokai. This trait, the traditional English translation
+of tzaraath, often names the Order of Saint Lazarus, who established hospitals for it. The Synoptic gospels
+report Jesus saying “I am willing. Be clean!” to cure a man of this condition after the Sermon on the
+Mount. For 10 points, name this skin condition commonly healed in Biblical miracles. 
+ANSWER: leprosy [or Hansen’s disease; accept being a leper] <BMB, Religion> 
+
+6. A short poem by this author advises “if you can’t shape your life the way you want...try not to degrade
+it by too much contact with the world” to avoid it becoming “a boring hanger-on.” This author ended a
+poem with the warning “[n]ow that you’ve wasted your life here, in this small corner, / you’ve destroyed
+it everywhere in the world.” The speaker of another poem by this author imagines the reader buying “sensual
+perfume” in “harbors you’re seeing for the first time” and visiting “Egyptian cities,” after declaring
+(*) “hope your road is a long one” in spite of “Laistrygonians, Cyclops, [and] angry Poseidon.” In another
+poem by this author, the speaker asks “Why are the senators sitting there without legislating?” before
+realizing that the title group was “a kind of solution.” For 10 points, name this Greek poet of “Ithaka”
+and “Waiting for the Barbarians.” 
+ANSWER: C. P. Cavafy [or Constantine Peter Cavafy] <RW, European Literature> 
+
+7. Hyperphosphorylation of ALS-affected TDP-43 protein is associated with its failure to reenter this
+organelle. SUMOylated (“SUMO-lated”) proteins tend to accumulate in this organelle. One class of transport
+adaptors for this organelle interacts with phenylalanine-glycine repeats and can be targeted with karyostatins
+such as importazole. The SV40 large T antigen was first used to identify this organelle’s localization
+signal. Cargo export from this organelle requires (*) Ran-GTP to move through its namesake pore complex.
+Receptors for steroid hormones such as estrogen readily translocated into this organelle following ligand
+binding. This organelle’s double membrane breaks down during prophase. For 10 points, what organelle contains
+most of the cell’s genetic material? 
+ANSWER: cell nucleus [accept nuclear pore complex] <AL, Biology>
+
+8. The third piece in a collection of this genre ends on an inconclusive D-sharp and was dedicated to
+its composer’s pupil, pianist Marie Jaëll. A piece in this genre begins with a repeated long, short-short
+rhythm on a lone staccato B-flat in the right hand. In a piece in this genre adapted from its composer’s
+Two Episodes, stacked open fifths depict the tuning of a violin. An eleven-year old (*) Liszt composed
+a variation on a piece in this genre by Anton Diabelli for the Vaterländischer Künstlerverein (“fah-ter-LAN-deesh-er
+KOONST-ler-ver-ayn”). The Bagatelle sans tonalité (“bah-gah-TELL sahn toh-nah-lee-TAY”) is often paired
+with a set of four pieces in this genre, whose first entry depicts the “Dance in the Village Inn” scene
+from Nikolaus Lenau’s Faust. A brisk D-flat major piece in this genre was inspired by a little dog chasing
+its own tail. For 10 points, Chopin composed a “minute” piece in what genre named for a ballroom dance?
+ANSWER: waltzes [or valses; or walzer; accept the “Minute” Waltz; accept Mephisto Waltzes; accept Grande
+valse brillante] <RW, Classical Music/Opera> 
+
+9. A ruler of this dynasty died after eating a poisoned pear prepared by one of his concubines, which
+she had actually intended for a slave. The collection Meadows of Gold, chronicling history from Adam and
+Eve to this dynasty, was written by al-Masudi. To oppose a group using red banners, this dynasty’s forces
+formed the Movement of the Men in the Black Raiment. This dynasty, established at Kufa, experienced a
+period of religious intolerance during the (*) mihna inquisition under its leader al-Ma’mūn. This dynasty
+came to power after defeating Marwan II at the Battle of the Zab. Mathematician al-Khwārizmī headed a
+central library known as the House of Wisdom in this dynasty’s capital. For 10 points, name this Islamic
+caliphate centered at Baghdad that overthrew the Umayyads. 
+ANSWER: Abbasid Dynasty [or Abbasid Caliphate] <JT, World History>
+
+10. As she does this activity with her boyfriend, a girl in a short story compares the remains of a limestone
+mill to a castle, after which her boyfriend dumps her by saying, “It isn’t fun anymore.” On a trip to
+do this activity, the protagonist of a short story recalls his dead friend Hopkins’ way of making coffee
+as he cooks spaghetti and beans. That protagonist notices the grasshoppers have turned black before catching
+a bottle of them for this activity. A novel ends with a man (*) dreaming of lions on a beach after he
+returns from this activity, which he had done unsuccessfully for 84 days. A fan of Joe DiMaggio is seen
+as salao, or unlucky, because of his failures in this activity. For 10 points, name this activity central
+to Santiago’s profession in the novel The Old Man and the Sea. 
+ANSWER: fishing [or angling or catching a fish or equivalents] (the stories are “The End of Something”
+and “Big Two-Hearted River.”) <CM, American Literature> 
+
+11. An objection to a religious perspective on this field uses a “properly basic” argument involving the
+“Great Pumpkin.” Linda Zagzebski used the example of an espresso machine to show how the “value problem”
+is inherent in a subfield of this field. Zagzebski pioneered the introduction of virtue theory into this
+field, originally introduced in Ernest Sosa’s “The Raft and the Pyramid.” The externalist “proper functionalism”
+perspective is contrasted with a “reformed” view of this field, according to (*) Alvin Plantinga. A classic
+counterexample to a long-held definition of this field imagines Smith and Jones both applying to the same
+job. That counterexample is one of many “problems” presented by Edmund Gettier challenging this field’s
+traditional definition of “justified true belief.” For 10 points, name this philosophical field involving
+the study of knowledge. 
+ANSWER: epistemology [accept word forms; accept study of knowledge until read; accept reformed epistemology;
+accept virtue epistemology; anti-prompt on reliabilism; prompt on philosophy until read] <AK, Philosophy>
+
+12. An artist from this family painted a ghostly chandelier hanging over an empty table in The Witching
+Hour. That artist from this family depicted a bride wearing a crown of flowers while sitting in an empty
+church in his painting Maidenhair. An artist from this family depicted himself wearing a pumpkinhead in
+a self-portrait and created Portrait of a Pig, which hangs in the Brandywine Museum of Art. An artist
+from this family depicted a boy running down a (*) hill near the location where that artist’s father died
+in Winter, 1946. A nude, braided woman sits on a blue stool next to a window in Lovers, one of more than
+240 pictures an artist from this family painted of Helga Testorf. That artist earlier depicted a girl
+with a degenerative muscular disorder crawling in a field in a pink dress. For 10 points, give this surname
+of the artist of Christina’s World. 
+ANSWER: Wyeth [accept Andrew Wyeth; accept Jamie Wyeth; accept N. C. Wyeth] <NZ, Visual Fine Arts>
+
+13. Israel Jacobson led the Royal Consistory of the Israelites in a kingdom named for this region. The
+concept of “guarantor powers” were first defined at a meeting in this region. Susan Strange’s book States
+and Markets cites the 1997 Asian financial crisis as a symptom of the fall of a system named for this
+region. Jérôme Bonaparte became the monarch of a kingdom named for this region, which shares its name
+with a modern-day region containing (*) Paderborn. In a system named for this region, each state has exclusive
+sovereignty over its own lands. The Treaties of Osnabruck and Munster comprise an agreement named for
+this region, which expanded on the earlier Peace of Augsburg by granting religious rights to Calvinists.
+For 10 points, what German region names a 1648 peace that ended the Thirty Years’ War? 
+ANSWER: Westphalia [accept Treaty or Peace of Westphalia; accept Westphalian system or “Westfailure”;
+accept Kingdom of Westphalia] <JT, European History> 
+
+14. In a film set in this city, a character who admits to stealing newspapers at a confessional insists
+on wearing a translucent plastic raincoat. At the end of that film set in this city, the protagonist resignedly
+plays a saxophone in his ruined apartment. Chris Marker’s film La Jetée references a scene of two lovers
+counting tree rings in a forest near this city. A film set in this city, inspired by Michelangelo Antonioni’s
+Blow-Up, opens with a (*) descending crane shot onto its central square. The dolly zoom effect was popularized
+by a film set in this city, whose opening sequence features a spiral imposed on a close-up of an eye.
+In that film set in this city, the deceased Madeleine Elster is impersonated by Judy, who dies after falling
+from a bell tower during a rendezvous with the detective Scottie. For 10 points, Alfred Hitchcock’s Vertigo
+is set in what Bay Area city? 
+ANSWER: San Francisco, California [accept San Fran] (the other film is Francis Ford Coppola’s The Conversation.)
+<OM, Other Fine Arts> 
+
+15. This thinker likened his concept of a “house society” to a “moral person,” with blood representing
+societal identity. This thinker included the unfinished play “The Apotheosis of Augustus” comparing anthropology
+and religion at the end of one work. A work by this thinker includes a criticism of the Indian caste system
+in the section “The Earth and Its Inhabitants.” This anthropologist argued that the incest taboo pushed
+societies toward exogamy, which formed the basis of his (*) “alliance theory.” This anthropologist contrasted
+“scientific” and “primitive” thought as visualizing projects versus building at hand, which he personified
+as the engineer and the bricoleur. This anthropologist’s structuralist approach to mythology defined its
+fundamental units as “mythemes.” For 10 points, name this structural anthropologist who wrote Tristes
+Tropiques and Mythologiques. 
+ANSWER: Claude Lévi-Strauss <AK, Social Science>
+
+16. An alcoholic character with this profession hides a bottle of whiskey in the bathroom to drink in
+secret before his colleague chops down the door with a fire-axe. In a play, a member of this profession
+is fooled into taking a bet that a character’s birth year when doubled is an odd number, but later gets
+his revenge after seemingly surviving being stabbed in the throat. Incidents among members of this profession
+involving a plate of sardines recur in (*) Michael Frayn’s play Noises Off. In another play, characters
+with this profession stowaway in barrels on a ship bound for England. Characters with this profession
+are asked to “speak the speech…as I pronounc’d it to you, trippingly on the tongue” before they premiere
+The Murder of Gonzago. For 10 points, what profession is held by the Tragedians in the play Rosencrantz
+and Guildenstern are Dead? 
+ANSWER: actors [or players; accept the Tragedians before read] <RW, British/Commonwealth Literature> 
+
+17. A caved-bun and toga-like garment covered in trefoils were sculpted in a work created by this civilization.
+It’s not Rome, but this civilization used a layer of bitumen and gypsum plaster to create a watertight
+tank across from the College of Priests. A specialist in this civilization, Jonathan Mark Kenoyer, holds
+a controversial interpretation of a three-headed god, which may be a horned deity. Ernest Mackay discovered
+a sculpture from this civilization showing a long-armed girl with about thirty bangles in a natural position.
+This non-Mesopotamian culture sculpted the (*) Priest King and built the Great Bath. One of the two major
+centers of this civilization, which produced a statue called the “Dancing Girl,” was located at Mohenjo-Daro.
+For 10 points, name this ancient civilization that straddled a river between Pakistan and India. 
+ANSWER: Indus River Valley Civilization [or Indus Valley Civilization; accept Harappan Civilization] <JT,
+Ancient/Other History> 
+
+18. Products of these quantities are related in Wegscheider’s identity. Two of these quantities are used
+to determine a constant typically denoted kappa in Bennett-Chandler methods. Setting six of these quantities
+to one in a triangular network introduced by Onsager trivially satisfies detailed balance. Activities
+and these quantities are related to relaxation time in the pressure jump method. This quantity equals
+transmission coefficient, times k-B-T-over-h, times an (*) exponential in transition state theory. The
+ratio between two of these quantities defines the kinetic isotope effect. The half-life of a first-order
+reaction equals ln-2 over this quantity, while in zeroth order reactions it has units of concentration
+per second. For 10 points, name this constant of proportionality that characterizes a reaction’s speed.
+ANSWER: reaction rate constant [prompt on k; reject “reaction rate” or “rate” alone] <GW, Chemistry> 
+
+19. An author describes one of these places which “confuses everything like a delirious god” in a lecture
+titled for a “Total” one of these places. In one work, a man sees a map of India in one of these places
+before hearing the words “The time for your labor has been granted.” At the end of one work, a man descends
+into the basement of one of these places after remarking “the best place to hide a leaf is in a forest.”
+After dreaming of finding God in one of these places, the playwright of The Enemies is given (*) one year
+to finish his work in “The Secret Miracle.” People are buried by being thrown over the railings of one
+of these places where pilgrims search for Vindications. For 10 points, name this kind of place, which
+is made up of infinite hexagonal rooms in a Jorge Luis Borges story titled for one “of Babel.” 
+ANSWER: libraries [accept word forms; accept "The Total Library"; accept the Clementine Library; accept
+the National Library; accept “The Library of Babel”] <ANZ, World Literature> 
+
+20. The horizontal axis of the Dikenga cosmogram represents these locations. Emily Gerard’s collection
+of Transylvanian folklore claims that people could summon demons at these locations by drawing magic circles
+and placing a copper coin inside. Namesake “suppers” were placed at these locations as offerings to a
+goddess during the new moon, whose epithet of “Triodia” represented their importance to these locations.
+A loa representing these locations is often depicted with a (*) cane, a straw hat, and a dog. A goddess
+of these locations had a sculptural motif at these locations of their “triple body” surrounding a column.
+Papa Legba was associated with these locations, where legends claim Robert Johnson sold their soul to
+the devil. For 10 points, Hecate was the goddess of what locations between the physical and spiritual
+world? 
+ANSWER: crossroads [accept answers describing the threshold between the physical and spiritual worlds
+before read; prompt on roads; prompt on intersections] <AK, Mythology> 
+ 
+Bonuses:
+
+1. A red ball hangs from a chain attached to a hoop on the ceiling in a box “silently” dedicated to this
+person, titled Construction. For 10 points each: 
+[10m] Name this person. This person titles a silkscreen “diptych” showing twenty-five images of this person’s
+face in color on the left and in black and white on the right. 
+ANSWER: Marilyn Monroe [or Norma Jeane Mortenson; accept Marilyn Diptych]
+[10e] This American pop artist used silkscreen to reinforce the role that mass media plays in contemporary
+society in works such as Marilyn Diptych and Campbell’s Soup Cans. 
+ANSWER: Andy Warhol [or Andrew Warhola Jr.]
+[10h] This artist honored film stars in works such as Construction and Penny Arcade Portrait of Lauren
+Bacall. This artist enframed portraits of historical figures in his Medici Slot Machine, one of his many
+series of “shadow boxes.” 
+ANSWER: Joseph Cornell <AK, Visual Fine Arts>
+
+2. When applied to second-best monopolies, the Ramsey pricing updates a quantity named for this economist.
+For 10 points each: 
+[10h] Name this economist who explained how the difference between price and marginal cost is representative
+of a firm’s market power in The Concept of Monopoly and the Measurement of Monopoly Power. 
+ANSWER: Abba (Psachia) Lerner [or Abraham (Ptachya) Lerner; accept Lerner index]
+[10m] The Lerner index equals negative one divided by this quantity, which equals the percentage change
+in Q-sub-d over the percentage change in P. Unusually, this quantity is positive for Veblen and Giffen
+goods. 
+ANSWER: price elasticity of demand [or PED; or E-sub-d; prompt on price elasticity or elasticity of demand]
+[10e] The Lerner index equals zero for firms in this market structure because firms are price-takers.
+All firms sell the same product, there are low barriers to entry, and market share has no influence on
+price in this market structure. 
+ANSWER: perfect competition [accept word forms; accept atomistic competition; accept perfect market or
+atomistic market; prompt on competition] <GW, Social Science> 
+
+3. The strength of these phenomena is inversely proportional to the cube of distance. For 10 points each:
+[10m] Name this phenomenon, whose amplitude equals 0 for one of its components at an amphidromic point.
+Pierre-Simon Laplace formulated a set of differential equations as part of a dynamic theory of these phenomena.
+ANSWER: tides [or tidal waves; accept tidal forces; accept dynamic theory of tides]
+[10h] Sudden changes in tides can result from these things caused by changing atmospheric pressure. These
+standing waves, which were first observed in Lake Geneva, are formed in bounded bodies of water. 
+ANSWER: seiche
+[10e] The formation of a seiche is an example of this phenomenon, where the frequency of an applied periodic
+force is close to the natural frequency of a system, resulting in a large increase in the amplitude of
+oscillations. 
+ANSWER: resonance <GW, Other Science>
+
+4. In Izaak Walton’s The Compleat Angler, the milkmaid Maudlin sings this poem in exchange for a fish
+from Piscator. For 10 points each: 
+[10m] Name this poem quoted in the first line of John Donne’s fishing-inspired “The Bait.” This poem’s
+speaker declares “we will all the pleasures prove,” promising “a bed of roses” and “a belt of straw and
+ivy buds.” 
+ANSWER: “The Passionate Shepherd to His Love”
+[10e] This Elizabethan author of the poem “The Passionate Shepherd to His Love” wrote the play Doctor
+Faustus. 
+ANSWER: Christopher Marlowe [or Kit Marlowe]
+[10h] In a response to Marlowe’s poem, this author declared “where a Freud in need is a Freud indeed /
+we’ll always be Jung together.” This author’s poem “Inventory” notes: “Four be the things I’d been better
+without: Love, curiosity, freckles, and doubt.” 
+ANSWER: Dorothy Parker [or Dorothy Rothschild] <RX, British/Commonwealth Literature>
+
+5. As recounted in the journals of Jean Rousset de Missy, critics called this ruler a pagan due to the
+widespread fear that people would not be able to enter heaven because of one of his policies. For 10 points
+each: 
+[10m] Name this ruler who created copper tokens imprinted with eagles to enforce that policy. This ruler
+established the Twelve Collegia and created a fourteen-tiered system predicated on service rather than
+heredity. 
+ANSWER: Peter the Great [or Peter I; or Pyotr Alekseyevich]
+[10e] This institution denounced Peter the Great’s beard tax because they considered being unshaved as
+a sign of piety. Peter the Great abolished this religious institution’s position of “Patriarch of Moscow
+and All Russia.” 
+ANSWER: Russian Orthodox Church [or ROC; prompt on Eastern Orthodox Church]
+[10h] Members of this other religious group mainly paid for a znak, or token, to maintain their beards.
+This group split from the Russian Orthodox Church after refusing to accept Nikon’s liturgical reforms.
+ANSWER: Old Believers [or Old Ritualists; or starovery] <RW, European History>
+
+6. These policies were followed by “Ruthanasia” after the election of the National Party in 1990. For
+10 points each: 
+[10h] Name this set of policies implemented by David Lange’s Labour government. These policies cut industry
+subsidies and deregulated the financial sector, exacerbating the effects of the 1987 market crash. 
+ANSWER: Rogernomics [accept answers describing Roger Douglas’s economic policies]
+[10e] Lange served as Prime Minister of this country, which had been the first to grant women the right
+to vote in 1893. 
+ANSWER: New Zealand [or Aotearoa]
+[10m] Lange signed the Treaty of Rarotonga, which banned these objects in much of the South Pacific. The
+Rainbow Warrior was sunk in Auckland on its way to a protest against these objects. 
+ANSWER: nuclear weapons [accept equivalents; accept atomic bombs or A-bombs; prompt on weapons] <DB, Ancient/Other
+History> 
+
+7. The repeated refrain of “I do not merit little men” appears in a poem about this figure in which he
+steals the magic cauldron of the nine sorceresses. For 10 points each: 
+[10e] Name this figure introduced in a poem about the Gododdin people. Geoffrey of Monmouth popularized
+the tale of this king of Camelot. 
+ANSWER: King Arthur [accept Brenin Arthur]
+[10h] Arthur steals the cauldron from the nine sorceresses in this place, in which he takes a giant ox
+as part of this place’s namesake “spoils.” A prince who chased off hounds with red ears swaps roles with
+a king of this place named Arawn for a year and a day. 
+ANSWER: Annwn (“AH-noon”) [or Annwfn; or Annwfyn; accept “The Spoils of Annwn” or “Preiddeu Annwn”; prompt
+on Welsh underworld or Welsh otherworld] 
+[10m] This figure, one of the nine sorceresses of Annwn, was often linked to a Gaelic mother goddess who
+was the daughter of the king of Annwn. Arthurian tales cast this figure as the ruler of Avalon. 
+ANSWER: Morgan le Fay [or Morgan the Fairy; accept Morgana or Morgaine] <AK, Mythology>
+
+8. Yoruba folktales inspired a Daniel O. Fagunwa novel titled for one of these places in which the hunter
+Compound-of-Spells meets a sixteen-eyed warrior and a two-headed ghommid. For 10 points each: 
+[10m] Name this type of place. In another novel, the villagers of Umuofia bury diseased people like Okonkwo’s
+father Unoka in an “Evil” one of these places, where the missionary Mr. Brown builds a church. 
+ANSWER: forests [accept Forest of a Thousand Daemons or the Evil Forest]
+[10e] The elders of Mbanta give the missionaries part of the Evil Forest in this Chinua Achebe novel about
+Okonkwo. 
+ANSWER: Things Fall Apart
+[10h] In a Nnedi Okorafor novel, Zahrah uses this ability to escape an elgort in the Forbidden Greeny
+Jungle. After hearing his aunt’s songs about Sugarman, the protagonist of a novel travels to Shalimar,
+Virginia to learn about his grandfather, who supposedly had this ability. 
+ANSWER: flight [or flying or levitating or equivalents; accept windseeker; accept Zahrah the Windseeker]
+(the second novel is Toni Morrison’s Song of Solomon.) <CM, World Literature> 
+
+9. The Randles–Ševčík equation relates the scan rate to the peak current in this technique. For 10 points
+each: 
+[10m] Name this technique that, unlike a related linear technique, performs both a forward and backward
+scan, generating a “duck-shaped” curve. 
+ANSWER: cyclic voltammetry [or CV; prompt on voltammetry]
+[10e] The duck-shape of the duck-shaped curve in cyclic voltammetry may be understood with this central
+equation of electrochemistry. This equation sets E equal to E-naught minus RT-over-nF times ln-Q. 
+ANSWER: Nernst equation
+[10h] This coordination complex and its associated cation form a redox couple often used to calibrate
+electrodes in cyclic voltammetry. This complex is a prototypical example of D5d symmetry. 
+ANSWER: ferrocene/ferrocenium [or Fc/Fc+; accept either underlined portion] <GW, Chemistry>
+
+10. This theorist outlined a predecessor to the modern cadence in his treatise Micrologus. For 10 points
+each: 
+[10h] Name this monk and music theorist, who is credited as the inventor of a moveable bridge used in
+monochords. This theorist also names an ancient mnemonic device that maps pitches to various locations
+on the human hand. 
+ANSWER: Guido of Arezzo [accept Guidonian hand]
+[10e] Guido of Arezzo introduced this modern notation for writing music. Two of these structures, which
+consist of five lines and four spaces in between them, are used to notate piano music. 
+ANSWER: musical staffs [or musical staves]
+[10m] In Micrologus, Guido prohibited the use of this interval between the vox principalis and the vox
+organalis. This interval is the distance between the leading tone and the next highest tonic. 
+ANSWER: half step [or minor second; or semitone; or half tone; prompt on second] <RN, Classical Music/Opera>
+
+11. The book Wealth Against Commonwealth by Henry D. Lloyd primarily concerns this company. For 10 points
+each: 
+[10m] Name this company, the subject of a series of nineteen articles in McClure’s Magazine that was later
+compiled into a book about the “history” of this company. 
+ANSWER: Standard Oil [or Standard Oil Company, Inc.; accept The History of the Standard Oil Company] 
+[10e] The History of the Standard Oil Company was written by Ida Tarbell, who was one of these journalists
+who exposed corruption and prompted social reforms during the Progressive Era. Other examples of these
+reformers include Jacob Riis and Upton Sinclair. 
+ANSWER: muckrakers
+[10h] Tarbell’s exposé of Standard Oil led to the passage of this 1906 act that built on the earlier Elkins
+Act, which expanded the Interstate Commerce Commission’s authority to oil pipelines. 
+ANSWER: Hepburn Act <AH, American History>
+
+12. A contaminated form of this product was implicated in the death of 11 children in Jammu in 2019, according
+to the book The Truth Pill. For 10 points each: 
+[10h] Name this product. 69 deaths of children have been linked to diethylene glycol in a brand of this
+product made by Maiden Pharmaceuticals that was sold in Gambia. 
+ANSWER: cough syrup [accept paracetamol]
+[10m] The cough syrup in Gambia was made in this country, which The Truth Pill criticized for not preventing
+contaminated medicines. This country is home to the Serum Institute and the developers of the COVAXIN
+vaccine. 
+ANSWER: Republic of India [accept Bhārat Gạnarājya]
+[10e] This organization issued a global alert about the contaminated cough syrup. This UN agency, which
+is currently led by Tedros Adhanom Ghebreyesus (“TED-roess AD-uh-nohm GEH-bree-ay-suhss”), is responsible
+for declaring global pandemics. 
+ANSWER: World Health Organization [accept WHO] <BMB, Current Events>
+
+13. For 10 points each, answer the following about authors inspired by Danish philosopher Soren Kierkegaard:
+[10h] This author used a Kierkegaard quote to title his story “Anxiety is the Dizziness of Freedom,” which
+describes a prism that allows one to communicate with alternate versions of themselves. An air-powered
+being dissects its own brain in the title story of this author’s collection Exhalation. 
+ANSWER: Ted Chiang
+[10m] In an interview, this book’s author described its protagonist as existing in a state of “what Kierkegaard
+called aesthetic damnation.” The stockbroker Binx Bolling travels with his step-cousin Kate in this Walker
+Percy novel set in New Orleans. 
+ANSWER: The Moviegoer
+[10e] This author tells the reader to “Praise Kierkegaard who split Hegel’s creed” in his long autobiographical
+poem Midpoint. This author created the former basketball star Harry Angstrom in his novel, Rabbit, Run.
+ANSWER: John Updike <NZ, American Literature>
+
+14. Alfred Russel Wallace criticized this man’s interpretation of female choice in the case of peacock
+plumages from his 1871 book The Descent of Man. For 10 points each: 
+[10e] Name this man who wrote of sexual selection as a “second agency” to natural selection, which he
+discussed in his book On the Origin of Species. 
+ANSWER: Charles Darwin
+[10h] Fisher’s principle explains that this quantity is usually kept close to 1 because it is a common
+evolutionary stable strategy. W. D. Hamilton first coined the term “unbeatable strategy” when discussing
+this quantity. 
+ANSWER: sex ratio [or ratio of males to females; prompt on gender ratio]
+[10m] Animals that undergo this type of reproduction may have a sex ratio that deviates from 1:1. In this
+type of reproduction, an embryo develops from an unfertilized egg. 
+ANSWER: parthenogenesis [prompt on asexual reproduction; anti-prompt on apomixis] <GW, Biology>
+
+15. During the Chinese Rites controversy, Pope Clement XI issued a papal bull banning the worship of these
+figures by Chinese Catholics. For 10 points each: 
+[10e] Name these figures venerated through the burning of incense and joss paper. During the Qingming
+Festival, tombs belonging to these family members are swept. 
+ANSWER: ancestors [prompt on answers describing deceased family members]
+[10h] A key point of contention in the controversy was regarding the text inscribed on these objects,
+which are also central to Korean jesa rites. These objects represent the spiritual presence of the deceased
+and are often simply made of red paper. 
+ANSWER: spirit tablets [accept memorial or ancestral tablets; accept signs; accept ihai, wipae, or shinwi]
+[10m] In Japan, ancestral tablets are often stored in butsudan at one of these locations, which are also
+the setting of the aforementioned Korean jesa ceremonies. In Chinese folk religion, Zao Jun, a god of
+a specific part of these locations, is celebrated in a festival roughly a week before Chinese New Year.
+ANSWER: homes [accept obvious equivalents such as houses; anti-prompt on kitchens] <DN, Religion>
+
+16. Elliptical orbits have a nonzero value for this quantity. For 10 points each:
+[10e] Name this quantity that for an ellipse ranges between 0 and 1 and measures how far it deviates from
+a circle. 
+ANSWER: eccentricity [prompt on epsilon]
+[10h] A vector form of eccentricity can be given by this quantity divided by the absolute value of mk.
+This conserved quantity is defined as p x L - m k e-r [“p cross L minus m k e sub r”]. 
+ANSWER: Laplace-Runge-Lenz vector [or LRL vector; accept Laplace vector; accept Runge-Lenz vector; accept
+Lenz vector] 
+[10m] The Laplace-Runge-Lenz vector is conserved for Keplerian orbits, which implies that the system has
+some differentiable symmetry, according to this theorem. 
+ANSWER: Noether’s theorem <FW, Physics>
+
+17. A record label named for this concept released its first album, Tone Dialing, in 1995. For 10 points
+each: 
+[10h] Name this musical philosophy where “rhythms, harmonics and tempos are all equal in relationship
+and independent melodies at the same time.” It’s not free jazz, but this concept’s creator wrote an unfinished
+manifesto titled “Prime Time for [this philosophy],” which was used on songs such as “Lonely Woman.” 
+ANSWER: harmolodics [accept Harmolodic Inc.; accept “Prime Time for Harmolodics”]
+[10m] This free jazz musician created the concept of harmolodic music. This musician collaborated with
+trumpeter Don Cherry on his album The Shape of Jazz to Come. 
+ANSWER: Ornette Coleman
+[10e] Coleman’s unique sound on The Shape of Jazz to Come partially stems from his use of a plastic type
+of this instrument originally manufactured by Grafton. This instrument was also played by John Coltrane.
+ANSWER: saxophone [accept plastic saxophone; accept Grafton saxophone] <NZ, Other Fine Arts>
+
+18. A play was originally titled for this adjective after its author learned a series of “astonishing
+truths” from a textbook, such as the fact that the floor is down and that the ceiling is up. For 10 points
+each: 
+[10h] Name this adjective. At the start of that “anti-play,” a middle class interior, two armchairs, and
+the seventeen strikes of a clock are all described by this adjective. 
+ANSWER: “English” [or “anglaise”]
+[10e] After reading an English language primer, this Romanian-French author of Rhinoceros wrote his play
+The Bald Soprano. 
+ANSWER: Eugène Ionesco [or Eugen Ionescu]
+[10m] In The Bald Soprano, a character with this profession named Mary recites a poem about objects catching
+on fire to the Fire Chief. In a play by Jean Genet, two members of this profession named Solange and Claire
+act out sadomasochistic fantasies. 
+ANSWER: maids [or maidservants; or Les Bonnes; prompt on servants] <RX, European Literature>
+
+19. These locations are linked with the rise of the Enlightenment in Dena Goodman’s The Republic of Letters.
+For 10 points each: 
+[10m] Name these locations. Along with coffeehouses, the development of these locations led to the decline
+of court society, according to Jürgen Habermas’s The Structural Transformation of the Public Sphere. 
+ANSWER: salons [prompt on social gatherings]
+[10e] Goodman’s The Republic of Letters focuses on the unequal role that these people played in the rise
+of salons in French philosophy. Mary Wollstonecraft argued that these people suffered from a lack of education
+in The Vindication of the Rights of [these people]. 
+ANSWER: women [accept equivalents such as girls; accept The Vindication of the Rights of Women]
+[10h] The Republic of Letters examines the correspondence between Turgot, Lespinasse, and this philosopher
+who wrote the Letters on Sympathy. This philosopher published her husband’s Sketch for a Historical Picture
+of the Progress of the Human Mind after his death during the French Revolution. 
+ANSWER: Sophie de Condorcet [or Sophie de Grouchy; accept Madame de Condorcet] <AK, Philosophy>
+
+20. Wenceslao Moguel earned the nickname “El Fusilado” after surviving an execution by firing squad while
+fighting for this man’s forces. For 10 points each: 
+[10e] Name this revolutionary. The United States sent an expedition to capture this man after his raid
+on Columbus, New Mexico. 
+ANSWER: Pancho Villa [or Francisco Villa; or José Doroteo Arango Arámbula; accept the Pancho Villa Expedition]
+[10m] Pancho Villa’s army was defeated by this man in 1915, whose Constitutionalist forces carried out
+Moguel’s attempted execution. This man was later murdered after his enemies issued the Plan of Agua Prieta.
+ANSWER: Venustiano Carranza
+[10h] This general served with the Constitutionalist army before breaking with Carranza, formulating the
+Plan of Agua Prieta with Plutarco Calles and Adolfo de la Huerta. This man’s election in 1920 is sometimes
+considered to mark the end of the Mexican Revolution. 
+ANSWER: Álvaro Obregón (Salido) <AH, World History>

@@ -3,7 +3,6 @@ Defines functions for parsing a .docx file to extract tossups and bonuses.
 
 Author: Will Hoover
 """
-from typeParsers.formatter import format_tossups, format_bonuses
 from docx import Document
 
 PARAGRAPH_INDEX = 0
@@ -60,4 +59,4 @@ def get_tossups_and_bonuses(filename: str) -> tuple:
         bonuses += text + "\n"
         text = get_next_text(doc)
     
-    return format_tossups(tossups), format_bonuses(bonuses)
+    return tossups, bonuses
