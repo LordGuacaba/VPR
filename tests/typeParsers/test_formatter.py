@@ -50,8 +50,8 @@ def test_full_packet_text():
     assert len(tossup_list) == 20
     assert len(bonus_list) == 20
 
-    assert tossup_list[5]["non-power"] == "“hope your road is a long one” in spite of “Laistrygonians, Cyclops, [and] angry Poseidon.” In another\npoem by this author, the speaker asks “Why are the senators sitting there without legislating?” before\nrealizing that the title group was “a kind of solution.” For 10 points, name this Greek poet of “Ithaka”\nand “Waiting for the Barbarians.” "
-    assert tossup_list[13]["answer"] == "San Francisco, California [accept San Fran] (the other film is Francis Ford Coppola’s The Conversation.)"
+    assert tossup_list[5]["non-power"] == " “hope your road is a long one” in spite of “Laistrygonians, Cyclops, [and] angry Poseidon.” In another poem by this author, the speaker asks “Why are the senators sitting there without legislating?” before realizing that the title group was “a kind of solution.” For 10 points, name this Greek poet of “Ithaka” and “Waiting for the Barbarians.” "
+    assert tossup_list[13]["answer"] == "ANSWER: San Francisco, California [accept San Fran] (the other film is Francis Ford Coppola’s The Conversation.) "
 
-    assert bonus_list[5]["answer-2"] == "New Zealand [or Aotearoa]"
-    assert bonus_list[15]["lead-in"] == "Elliptical orbits have a nonzero value for this quantity. For 10 points each:"
+    assert bonus_list[5]["answer-2"] == "ANSWER: New Zealand [or Aotearoa] "
+    assert bonus_list[15]["lead-in"] == "Elliptical orbits have a nonzero value for this quantity. For 10 points each: "
