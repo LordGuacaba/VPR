@@ -7,14 +7,17 @@ from docx import Document
 
 PARAGRAPH_INDEX = 0
 
-def get_next_text(document):
+def get_next_text(document, index=None):
     """
     Returns the text of then next paragraph in the document based on the global
     current paragraph index.
     """
-    global PARAGRAPH_INDEX
+    if index == None:
+        global PARAGRAPH_INDEX
+        index = PARAGRAPH_INDEX
+        PARAGRAPH_INDEX += 1
     try:
-        text = document.paragraphs[PARAGRAPH_INDEX].text.strip()
+        text = document.paragraphs[index].text.strip()
         if len(text) > 100:
             next_hundred = 1
             words = text.split(" ")
@@ -24,8 +27,7 @@ def get_next_text(document):
                 if len(text) > next_hundred * 100:
                     text += "\n"
                     next_hundred += 1
-        PARAGRAPH_INDEX += 1
-        return text
+        return text.strip()
     except(IndexError):
         return None
 

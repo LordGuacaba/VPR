@@ -2,7 +2,6 @@
 Tests the expansion and parsing of raw text from .txt files into tossups and bonuses sections.
 """
 from src.typeParsers.txtParser import *
-from tempfile import NamedTemporaryFile
 
 def test_insert_newlines_txt():
     insert_newlines("tests/data/newlines_needed.txt", "tests/data/newlines_inserted.txt")
