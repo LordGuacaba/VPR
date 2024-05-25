@@ -1,5 +1,6 @@
 from typeParsers.txtParser import *
 from typeParsers.docxParser import get_tossups_and_bonuses as get_from_docx
+from typeParsers.formatter import format_tossups, format_bonuses
 from generator.generator import generate
 from docx import Document
 import sys, getopt
@@ -38,6 +39,8 @@ def main(argv):
     except(TypeError):
         print("Unsupported file type")
         return
+    tossups = format_tossups(tossups)
+    bonuses = format_bonuses(bonuses)
 
     generate(tossups, bonuses, output_file)
     print("ALL DONE COWABUNGA")

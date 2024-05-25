@@ -3,7 +3,6 @@ Defines functions for parsing a .txt file to extract tossups and bonuses.
 
 Author: Will Hoover
 """
-from typeParsers.formatter import format_tossups, format_bonuses
 
 def get_tossups_and_bonuses(filename: str) -> tuple:
     """
@@ -40,13 +39,17 @@ def get_tossups_and_bonuses(filename: str) -> tuple:
             bonuses += line + '\n'
             line = packet.readline().strip()
 
-    return format_tossups(tossups), format_bonuses(bonuses)
+    return tossups, bonuses
 
-def insert_newlines(filename: str):
+def insert_newlines(filename: str, file_out=None):
     """
     Inserts newlines into a .txt file that was copy/pasted over so tossups don't exist on
     a single line.
     """
+    if filename.split(".")[-1] != "txt":
+        raise TypeError("File type cannot have newlines inserted")
+    if file_out == None:
+        file_out = filename
     new_file_text = ""
     with open(filename, 'r') as packet:
         line = packet.readline()
@@ -59,13 +62,12 @@ def insert_newlines(filename: str):
                 while len(words) > 0:
                     new_line += words.pop(0)
                     if len(new_line) > 100:
-                        new_line += '\n'
-                        new_file_text += new_line
+                        new_file_text += new_line + '\n'
                         new_line = ""
                     else:
                         new_line += " "
                 if len(new_line) > 0:
                     new_file_text += new_line + '\n'
             line = packet.readline()
-    with open(filename, 'w') as revised:
+    with open(file_out, 'w') as revised:
         revised.write(new_file_text)
