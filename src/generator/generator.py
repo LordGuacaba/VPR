@@ -47,7 +47,7 @@ def add_bonus_slides(pres, header: str, bonus: dict):
     for key in bonus_key_order:
         current_slide = add_bonus_fragment(current_slide, pres, bonus[key] + '\n')
 
-def generate(tossups: list, bonuses: list, output_name: str):
+def generate(tossups: list, bonuses: list, output_name: str, file_return=False):
     """
     Generates an expanded powerpoint for a packet with the given tossups and bonuses
     """
@@ -61,4 +61,6 @@ def generate(tossups: list, bonuses: list, output_name: str):
     if ".pptx" not in output_name:
         output_name += ".pptx"
     pres.save("../output/" + output_name)
+    if file_return:
+        return open("../output/" + output_name)
     
