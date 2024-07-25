@@ -1,19 +1,8 @@
-from typeParsers.txtParser import *
-from typeParsers.docxParser import get_tossups_and_bonuses as get_from_docx
+from main import get_questions_by_file_type
+from typeParsers.txtParser import insert_newlines
 from typeParsers.formatter import format_tossups, format_bonuses
 from generator.generator import generate
-from docx import Document
 import sys, getopt
-
-def get_questions_by_file_type(filepath: str) -> tuple:
-    """
-    Returns a (tossups, bonuses) tuple of question sets based on the packet's file type.
-    """
-    extension = filepath.split(".")[-1]
-    if extension == "txt":
-        return get_tossups_and_bonuses(filepath)
-    elif extension == "docx":
-        return get_from_docx(filepath)
 
 def main(argv):
     input_file = ""
