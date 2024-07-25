@@ -61,4 +61,6 @@ def get_tossups_and_bonuses(filename: str) -> tuple:
         bonuses += text + "\n"
         text = get_next_text(doc)
     
+    global PARAGRAPH_INDEX
+    PARAGRAPH_INDEX = 0
     return tossups, bonuses
