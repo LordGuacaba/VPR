@@ -2,14 +2,13 @@ from typing import Annotated
 from os import remove
 
 from fastapi import FastAPI, UploadFile, HTTPException, Query
-from fastapi.responses import FileResponse
+from fastapi.responses import Response, FileResponse
 from typeParsers.txtParser import *
 from typeParsers.docxParser import get_tossups_and_bonuses as get_from_docx
 from typeParsers.formatter import format_tossups, format_bonuses
 from generator.generator import generate
 
 app = FastAPI()
-
 
 def get_questions_by_file_type(filename: str) -> tuple:
     """
@@ -26,25 +25,31 @@ async def root():
     return {"message": "Hello World"}
 
 @app.get("/presentation/{name}")
-def get_presentation(name: str):
+async def get_presentation(name: str):
     filename = "../output/" + name + ".pptx"
+    headers = {
+        'Content-Disposition': 'attachment',
+        'Access-Control-Allow-Origin': 'http://localhost:3000'
+    }
     try:
         with open(filename):
             pass
     except:
-        raise HTTPException(404, "No presentation with that name exists")
-    return FileResponse(filename)
+        raise HTTPException(404, "No presentation with that name exists", headers)
+    return FileResponse(filename, headers=headers)
 
 @app.delete("/presentation/{name}")
-def remove_presentation(name: str):
+async def remove_presentation(name: str, response: Response):
+    response.headers['Access-Control-Allow-Origin'] = "http://localhost:3000"
     filename = "../output/" + name + ".pptx"
     try:
         remove(filename)
     except:
         raise HTTPException(404, "No presentation with that name exists")
 
-@app.post("/create")
-async def run_vpr(file: UploadFile, name: Annotated[str, Query(max_length=30)] = "expanded"):
+@app.post("/create", status_code=201)
+async def run_vpr(file: UploadFile, response: Response, name: Annotated[str, Query(max_length=30)] = "expanded"):
+    response.headers['Access-Control-Allow-Origin'] = "http://localhost:3000"
     localname = "../input/" + file.filename
     if localname.split(".")[-1] != "txt" and localname.split(".")[-1] != "docx":
         raise HTTPException(400, "File must be a plain text file or Word document")
@@ -52,5 +57,14 @@ async def run_vpr(file: UploadFile, name: Annotated[str, Query(max_length=30)] =
         local.write(await file.read())
     tossups, bonuses = get_questions_by_file_type(localname)
     tossups, bonuses = format_tossups(tossups), format_bonuses(bonuses)
-    generate(tossups, bonuses, "../output/" + name + ".pptx")
+    outputPath = "../output/" + name + ".pptx"
+    generate(tossups, bonuses, outputPath)
     remove(localname)
+
+@app.options("/presentation/{name}", status_code=204)
+def delete_preflight(name: str):
+    headers = {
+        'Access-Control-Allow-Origin': 'http://localhost:3000',
+        'Access-Control-Allow-Methods': 'POST, GET, DELETE, OPTIONS'
+    }
+    return Response(headers=headers)
