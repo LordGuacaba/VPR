@@ -61,10 +61,10 @@ async def run_vpr(file: UploadFile, response: Response, name: Annotated[str, Que
     generate(tossups, bonuses, outputPath)
     remove(localname)
 
-@app.options("/presentation/{name}", status_code=204)
+@app.options("/presentation/{name}")
 def delete_preflight(name: str):
     headers = {
         'Access-Control-Allow-Origin': 'http://localhost:3000',
         'Access-Control-Allow-Methods': 'POST, GET, DELETE, OPTIONS'
     }
-    return Response(headers=headers)
+    return Response(status_code=204, headers=headers)
