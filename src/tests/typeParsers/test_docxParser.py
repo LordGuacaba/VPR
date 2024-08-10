@@ -1,10 +1,10 @@
 """
 Tests the expansion and parsing of tossups and bonuses from a word document.
 """
-from src.typeParsers.docxParser import *
+from typeParsers.docxParser import *
 from docx import Document
 
-TEST_FILE = "tests/data/testpacket.docx"
+TEST_FILE = "src/tests/data/testpacket.docx"
 
 def test_get_next_text():
     doc = Document(TEST_FILE)
