@@ -1,6 +1,6 @@
 from main import get_questions_by_file_type
-from typeParsers.txtParser import insert_newlines
-from typeParsers.formatter import format_tossups, format_bonuses
+from parsers.txtParser import insert_newlines
+from parsers.formatter import format_tossups, format_bonuses
 from generator.generator import generate
 import sys, getopt
 

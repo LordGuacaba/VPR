@@ -1,14 +1,17 @@
 from typing import Annotated
-from os import remove
+import os
 
 from fastapi import FastAPI, UploadFile, HTTPException, Query
 from fastapi.responses import Response, FileResponse
-from typeParsers.txtParser import *
-from typeParsers.docxParser import get_tossups_and_bonuses as get_from_docx
-from typeParsers.formatter import format_tossups, format_bonuses
+from parsers.txtParser import *
+from parsers.docxParser import get_tossups_and_bonuses as get_from_docx
+from parsers.formatter import format_tossups, format_bonuses
 from generator.generator import generate
 
 app = FastAPI()
+MOD_PATH = ""
+if os.path.abspath(os.curdir)[-4:] == "/VPR":
+    MOD_PATH = "src/"
 
 def get_questions_by_file_type(filename: str) -> tuple:
     """
@@ -26,7 +29,7 @@ async def root():
 
 @app.get("/presentation/{name}")
 async def get_presentation(name: str):
-    filename = "../output/" + name + ".pptx"
+    filename = f'{MOD_PATH}output/{name}.pptx'
     headers = {
         'Content-Disposition': 'attachment',
         'Access-Control-Allow-Origin': 'http://localhost:3000'
@@ -41,25 +44,24 @@ async def get_presentation(name: str):
 @app.delete("/presentation/{name}")
 async def remove_presentation(name: str, response: Response):
     response.headers['Access-Control-Allow-Origin'] = "http://localhost:3000"
-    filename = "../output/" + name + ".pptx"
+    filename = "output/" + name + ".pptx"
     try:
-        remove(filename)
+        os.remove(filename)
     except:
         raise HTTPException(404, "No presentation with that name exists")
 
 @app.post("/create", status_code=201)
 async def run_vpr(file: UploadFile, response: Response, name: Annotated[str, Query(max_length=30)] = "expanded"):
     response.headers['Access-Control-Allow-Origin'] = "http://localhost:3000"
-    localname = "../input/" + file.filename
+    localname = f'{MOD_PATH}input/{file.filename}'
     if localname.split(".")[-1] != "txt" and localname.split(".")[-1] != "docx":
         raise HTTPException(400, "File must be a plain text file or Word document")
     with open(localname, "wb") as local:
         local.write(await file.read())
     tossups, bonuses = get_questions_by_file_type(localname)
     tossups, bonuses = format_tossups(tossups), format_bonuses(bonuses)
-    outputPath = "../output/" + name + ".pptx"
-    generate(tossups, bonuses, outputPath)
-    remove(localname)
+    generate(tossups, bonuses, name, MOD_PATH)
+    os.remove(localname)
 
 @app.options("/presentation/{name}")
 def delete_preflight(name: str):

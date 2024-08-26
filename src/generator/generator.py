@@ -6,7 +6,7 @@ Provides the functionality that directs the generation of the expanded-packet po
 from pptx import Presentation
 from generator.pptx_utils import *
 
-PACKET_TEMPLATE = "../templates/packet_template.pptx"
+PACKET_TEMPLATE = "templates/packet_template.pptx"
 TOSSUP_SLIDE_HEADER = "Tossup #"
 BONUS_SLIDE_HEADER = "Bonus #"
 
@@ -47,20 +47,18 @@ def add_bonus_slides(pres, header: str, bonus: dict):
     for key in bonus_key_order:
         current_slide = add_bonus_fragment(current_slide, pres, bonus[key] + '\n')
 
-def generate(tossups: list, bonuses: list, output_name: str, file_return=False):
+def generate(tossups: list, bonuses: list, name: str, mod_path: str=""):
     """
     Generates an expanded powerpoint for a packet with the given tossups and bonuses
     """
-    pres = Presentation(PACKET_TEMPLATE)
+    pres = Presentation(f'{mod_path}{PACKET_TEMPLATE}')
     if len(tossups) != len(bonuses):
         print("Unequal number of tossups and bonuses")
         return
     for i in range(len(tossups)):
         add_tossup_slides(pres, TOSSUP_SLIDE_HEADER + str(i+1), tossups[i])
         add_bonus_slides(pres, BONUS_SLIDE_HEADER + str(i+1), bonuses[i])
-    if ".pptx" not in output_name:
-        output_name += ".pptx"
-    pres.save("../output/" + output_name)
-    if file_return:
-        return open("../output/" + output_name)
+    if ".pptx" not in name:
+        name += ".pptx"
+    pres.save(f'{mod_path}output/{name}')
     
