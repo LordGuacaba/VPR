@@ -44,7 +44,7 @@ async def get_presentation(name: str):
 @app.delete("/presentation/{name}")
 async def remove_presentation(name: str, response: Response):
     response.headers['Access-Control-Allow-Origin'] = "http://localhost:3000"
-    filename = "output/" + name + ".pptx"
+    filename = f'{MOD_PATH}output/{name}.pptx'
     try:
         os.remove(filename)
     except:
