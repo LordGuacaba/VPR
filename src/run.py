@@ -12,7 +12,7 @@ def main(argv):
         if opt == "-i":
             input_file = arg
             if "/" not in input_file:
-                input_file = "../input/" + input_file
+                input_file = "input/" + input_file
         elif opt == "-o":
             output_file = arg
         elif opt == "-e":
