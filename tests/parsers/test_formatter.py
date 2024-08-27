@@ -1,8 +1,10 @@
 """
 Tests the functions for formatting raw text into tossup and bonus objects.
 """
-from src.typeParsers.formatter import *
-from src.typeParsers.txtParser import get_tossups_and_bonuses
+from src.parsers.formatter import *
+from src.parsers.txtParser import get_tossups_and_bonuses
+
+TEST_FILE = "tests/data/testpacket.txt"
 
 def test_is_start_of_question_true():
     one_digit = "3. This object came into Smeagol's possession after centuries of lurking in"
@@ -43,7 +45,7 @@ def test_remove_bad_stuff_author():
     assert remove_bad_stuff(line) == ""
 
 def test_full_packet_text():
-    tossups, bonuses = get_tossups_and_bonuses("tests/data/testpacket.txt")
+    tossups, bonuses = get_tossups_and_bonuses(TEST_FILE)
     tossup_list = format_tossups(tossups)
     bonus_list = format_bonuses(bonuses)
 

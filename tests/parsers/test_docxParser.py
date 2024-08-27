@@ -1,7 +1,7 @@
 """
 Tests the expansion and parsing of tossups and bonuses from a word document.
 """
-from src.typeParsers.docxParser import *
+from src.parsers.docxParser import *
 from docx import Document
 
 TEST_FILE = "tests/data/testpacket.docx"
