@@ -7,6 +7,7 @@ from parsers.txtParser import *
 from parsers.docxParser import get_tossups_and_bonuses as get_from_docx
 from parsers.formatter import format_tossups, format_bonuses
 from generator.generator import generate
+import re
 
 app = FastAPI()
 MOD_PATH = ""
@@ -22,6 +23,9 @@ def get_questions_by_file_type(filename: str) -> tuple:
         return get_tossups_and_bonuses(filename)
     elif extension == "docx":
         return get_from_docx(filename)
+    
+def sanitize_outputname(filename: str):
+    return re.sub(r'[^a-z0-9_\-]', '', filename)
 
 @app.get("/")
 async def root():
@@ -29,7 +33,7 @@ async def root():
 
 @app.get("/presentation/{name}")
 async def get_presentation(name: str):
-    filename = f'{MOD_PATH}output/{name}.pptx'
+    filename = f'{MOD_PATH}output/{sanitize_outputname(name)}.pptx'
     headers = {
         'Content-Disposition': 'attachment',
         'Access-Control-Allow-Origin': 'http://localhost:3000'
@@ -44,7 +48,7 @@ async def get_presentation(name: str):
 @app.delete("/presentation/{name}")
 async def remove_presentation(name: str, response: Response):
     response.headers['Access-Control-Allow-Origin'] = "http://localhost:3000"
-    filename = f'{MOD_PATH}output/{name}.pptx'
+    filename = f'{MOD_PATH}output/{sanitize_outputname(name)}.pptx'
     try:
         os.remove(filename)
     except:
@@ -60,7 +64,7 @@ async def run_vpr(file: UploadFile, response: Response, name: Annotated[str, Que
         local.write(await file.read())
     tossups, bonuses = get_questions_by_file_type(localname)
     tossups, bonuses = format_tossups(tossups), format_bonuses(bonuses)
-    generate(tossups, bonuses, name, MOD_PATH)
+    generate(tossups, bonuses, sanitize_outputname(name), MOD_PATH)
     os.remove(localname)
 
 @app.options("/presentation/{name}")
