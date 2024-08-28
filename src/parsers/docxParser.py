@@ -48,16 +48,17 @@ def get_tossups_and_bonuses(filename: str) -> tuple:
             tossups += text + '\n'
             tossups_started = True
     text = get_next_text(doc)
-    while text.lower()[0:7] != "bonuses":
+    while len(text) > 40 or "bonuses" not in text.lower():
         tossups += text + "\n"
         text = get_next_text(doc)
         while text == "":
             text = get_next_text(doc)
-
     text = get_next_text(doc)
-    while text != None:
+    while True:
         while text == "":
             text = get_next_text(doc)
+        if text == None:
+            break
         bonuses += text + "\n"
         text = get_next_text(doc)
     
