@@ -4,7 +4,7 @@
 ## Contents
 - [How To Use](#how-to-use)
 - [What's New](#whats-new)
-- [Planned Updates](#planned-updates)
+- [Upcoming Updates](#upcoming-updates)
 
 ## How To Use
 ### Prerequisites
@@ -35,14 +35,7 @@ v0.2.0
 v0.1.1
 - Output PowerPoint no longer opens in slide master mode
 - Text spacing improved
-## Planned Updates
-Features
-- Precise bold/underline on answer lines (word doc input only)
-- Local GUI (eventually)
-Fixes
-- Tighten pronunciation guide removal
-- Code refactoring
-- Cross-OS compatability checks
-- Remove extra slide between end of tossup and answer
-- Remove space between power mark and end of power
-- Better error output during packet parsing
+## Upcoming updates
+v1.0
+- FastAPI backend deployed through Render
+- [Frontend website](https://github.com/LordGuacaba/vpr-frontend) to access remote backend
